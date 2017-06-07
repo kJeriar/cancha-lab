@@ -1,0 +1,64 @@
+.rectangulo {
+	width: 800px;
+	height: 500px;
+	background-color: #139F44;
+	position: absolute;
+}
+.rectangulo2 {
+	width: 750px;
+	height: 450px;
+	border: 2px solid white;
+	margin-top: 25px;
+	margin-left: 25px;
+	position: relative;
+}
+
+.arco1, .arco2{
+
+	height: 200px;
+	width: 120px;
+	border: 2px solid white;
+	top:130px;
+	display: inline-block;
+
+}
+.arco1 {
+	
+	position: relative;
+    margin-left: -2px
+}
+
+.arco2 {
+	
+	position: absolute;
+	left: 628px;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+	top:130px;
+    display: inline-block;
+    left: 150px;
+}
+
+.primera{
+	position: absolute;
+	left: 110px;
+	top:133px;
+}
+.segunda{
+	position: absolute;
+	left: 410px;
+	top: 60px;
+}
+.tercera{
+	position: absolute;
+	left: 600px;
+	top: 310px;
+}
