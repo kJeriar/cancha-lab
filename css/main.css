@@ -1,25 +1,26 @@
-.rectangulo {
+.rect1 {
 	width: 800px;
 	height: 500px;
 	background-color: #139F44;
 	position: absolute;
 }
-.rectangulo2 {
-	width: 750px;
-	height: 450px;
-	border: 2px solid white;
+.rect2 {
 	margin-top: 25px;
 	margin-left: 25px;
 	position: relative;
+	width: 750px;
+	height: 450px;
+	border: 2px solid white;
+	
 }
 
 .arco1, .arco2{
-
+	display: inline-block;
 	height: 200px;
 	width: 120px;
 	border: 2px solid white;
 	top:130px;
-	display: inline-block;
+
 
 }
 .arco1 {
@@ -33,20 +34,21 @@
 	position: absolute;
 	left: 628px;
 }
-
+/*centro cancha*/
 .circulo {
+	position: relative;
+	top:130px;
+    display: inline-block;
+    left: 150px;
     width: 200px;
     height: 200px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 2px solid white;
-    position: relative;
-	top:130px;
-    display: inline-block;
-    left: 150px;
+    
 }
-
+/*pelotas*/
 .primera{
 	position: absolute;
 	left: 110px;
